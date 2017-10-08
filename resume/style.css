@@ -1,0 +1,152 @@
+ul,#social-icons {
+	display: flex;
+    list-style-type:none;
+    justify-content:center;
+    color: white;
+
+}
+
+ul li {
+    color:#848283;
+    font-size: 15px;
+    cursor:pointer;
+    font-weight: 600;
+    font-family: monospace;
+	margin: 10px;
+}
+#social-icons li {
+
+	margin: 10px;
+}
+header{
+background-image: url(images/header-background.jpg);
+height: 100vh;
+background-position: center;
+}
+
+main {
+	color:white;
+	text-align: center;
+	margin-top: 13%;
+
+
+}
+#profile-pic {
+	/*height: 100px;
+    width: 100px;
+   
+    margin: 10px;
+    margin-top: 50px;*/
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin:20px;
+}
+.about-me {
+	color: grey;
+	margin-left: 10%;
+	display: inline-block;
+}
+#section2{
+display: flex;
+background-color: #2b2b2b;
+
+
+}
+#section3{
+	display: flex;
+
+}
+#section4{
+	display:flex;
+}
+
+#section5{
+	display: flex;
+}
+
+#section6{
+	display: flex;
+}
+#portfolio{
+	margin: 0px;
+display: flex;
+justify-content:center;
+list-style: none;
+ flex-wrap: wrap;
+}
+#portfolio li:nth-child(-n+4){
+ height: 20vw;
+    width: 19%;}
+#check-out-some-of-my-work{
+
+background-color: #ebeeee;
+margin:5%px;
+	}
+
+.image{
+	width: 100%;
+	height: 100%;
+}
+#testimonial{
+	position: relative;
+	width: 100%;
+	height: 200px;
+}
+#imagetotext{
+  position: absolute; 
+   top: 0px; 
+   left: 0; 
+   width: 100%; 	
+
+}
+#lastform{
+	display: inline-block;
+
+}
+.inputs{
+	height: 40px;
+	background-color: #373233;
+	border: 0px;
+	width: 270px;
+	font-size: 20px;
+	color: white;
+}
+.label{
+	display:flex;
+	margin-top: 20px;
+	color: white;
+	font-family:sans-serif;
+	    font-size: 15px;
+	align-items:baseline;
+
+}
+.big{
+	border: 0px;
+	height: 200px;
+	width: 270px;
+	background-color: #373233;
+}
+#footer-nav li{
+	margin:10px;
+}
+.image_last{
+	height: 20vw;
+    width: 19%;
+}
+.written-content{
+	font-size: 18px;
+	color: #797979;
+}
+.my_skills{
+	color:black;
+	 font-family: monospace;
+    font-size: large;
+}
+html, html a,p {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+p {
+	font-family: sans-serif;
+}
